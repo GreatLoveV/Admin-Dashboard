@@ -181,6 +181,7 @@ MAIN AREA
     padding: 20px;
     gap: 20px;
     
+    
 
 }
 #projects{
@@ -211,6 +212,7 @@ MAIN AREA
     gap: 20px 15px;
     grid-template-rows: max-content;
     padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 #trending-container {
 
@@ -221,11 +223,13 @@ MAIN AREA
     gap: 20px;
     flex-direction: column;
     padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .trending-card{
     display: flex;
     align-items: center;
     gap: 15px;
+    
 }
 
 .trending-image {
